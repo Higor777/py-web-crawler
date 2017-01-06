@@ -1,0 +1,17 @@
+sudo apt-get install python-dev libxml2-dev libxslt-dev -y
+sudo apt-get install python-twisted python-simplejson -y
+sudo pip install w3lib
+
+#对于/usr/bin/ld: cannot find -lz
+apt-get install zlib1g-dev
+
+sudo pip install lxml
+sudo pip install scrapy==1.0.0
+sudo pip install beautifulsoup4
+
+sudo pip  install xlwt
+
+sudo pip install requests
+
+sudo apt-get install libmysqld-dev
+sudo pip install MySQL-Python
