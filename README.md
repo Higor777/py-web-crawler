@@ -1,7 +1,7 @@
 # py-web-crawler
 工程实践训练课程作业 <人物信息采集系统>
 
-##1、系统构成
+## 1、系统构成
     此次人物信息采集系统使用 Python 2.7 实现，模块构成如下。
         日志系统 logging；
         Excel 写入模块 xlwt；	
@@ -13,7 +13,7 @@
 
     数据源：互动百科。
 
-##2、使用过程
+## 2、使用过程
     安装依赖
         sudo apt-get install python-dev libxml2-dev libxslt-dev -y
         sudo apt-get install python-twisted python-simplejson -y
@@ -50,7 +50,7 @@
 	    如果传入 export 参数，则整理数据库现有的数据，并导出为 Excel 文件和 SQL 文件，保存在结果文件夹下。之后立即结束程序。
 	    如果传入 tar 参数，则将项目文件打包。档案内容包括整个项目的代码和数据文件，其文件名称为 person_hudongbaike.tar。之后立即结束程序。
 
-##3、文件结构
+## 3、文件结构
     本系统的文件结构如下。
         person_hudongbaike/ # 项目总文件夹
         ├── install.txt # 项目依赖环境
